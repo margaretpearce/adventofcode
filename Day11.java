@@ -94,6 +94,6 @@ public class Day11 {
 	public static void main(String[] args) {
 		Day11 puzzle = new Day11();
 		String next = puzzle.getNextPassword(args[0]);
-		String second = puzzle.getNextPassword(next);
+		puzzle.getNextPassword(next);
 	}
 }
